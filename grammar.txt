@@ -32,7 +32,7 @@ Flash
 <cpu>:
 i3
 i5
-i7
+i7 X5009
 Pentium I
 Pentium II
 MIPS 500
@@ -52,3 +52,59 @@ Redragon M908 Impact RGB
 
 <tastature>:
 Cherry
+Razer Blackwidow
+
+<application1>:
+Rendering 360p videos
+Playing Forknife
+Surfing the www
+Gif rendering
+Visual Basic programming
+Printing Documents
+Flash Games
+Machine Learning
+Crypto Mining
+Ordering Food
+Commenting First on Youtube
+Searching on Yahoo
+Listening to rad tunes on <musicVendor>
+Deep Neural Networks
+
+<application2>:
+Calculating Prime Numbers
+Solving Sudokus
+Simulating Quantum Computers
+Searching for Extraterrestial Life
+Playing Chess
+Chatting on <chat>
+MS Paint
+Movie Maker
+
+
+<chat>:
+ICQ
+MSN
+Facebook
+Omegle
+Twitter
+Reddit
+Club Penguin
+IRC
+Writing Documents in <textProgramm>
+
+<textProgramm>:
+Word
+WordStar
+emacs
+vim
+LibreOffice
+Excel
+Microsoft Works
+Notepad
+
+
+<musicVendor>:
+Napster
+Myspace
+Spotify
+Youtube

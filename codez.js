@@ -24,6 +24,7 @@ $( document ).ready(function() {
         $("#spec-cpu").html(erratic.generate(rules, 'cpu'));
         $("#spec-ram").html(erratic.generate(rules, 'ram'));
         $("#spec-mousepad").html(erratic.generate(rules, 'mousepad'));
+        $("#spec-application1").html(erratic.generate(rules, 'application1'));
     })
 
     $("#btn-guests").click(function() {
