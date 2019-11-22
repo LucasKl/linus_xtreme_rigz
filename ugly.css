@@ -40,8 +40,15 @@ td {
 }
 
 .view-counter {
+    width: 100%;
+    text-align: right;
+}
+
+.view-counter-digit {
     font-size: 60px;
     padding: 2px;
     color: red;
+    /* background-image: linear-gradient(to bottom, lightblue 0%, blue 100%); */
     background-color: blue;
+    border: red 2px solid;
 }
