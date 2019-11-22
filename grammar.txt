@@ -1,5 +1,5 @@
 <ram>:
-<ramManufacturer> <ramNumber> <ramUnit> <ramType>
+<ramManufacturer> <ramNumber> <storageUnit> <ramType>
 
 <ramManufacturer>:
 Kingston
@@ -12,10 +12,12 @@ Corsair
 8
 10
 12
+200
+500
 1024
 2048
 
-<ramUnit>:
+<storageUnit>:
 GB
 MB
 MiBi
@@ -29,10 +31,22 @@ DDR3
 DDR3000000
 Flash
 
+<storage>:
+<ramNumber> <storageUnit> <storageType>
+
+<storageType>:
+HDD
+SSD
+Tape
+Punching Cards
+Floppy Drive
+Datasette
+Mechanical Relay
+
 <cpu>:
-i3
-i5
-i7 X5009
+Intel Core i3
+Intel Core i5
+Intel Core i7 X5009
 Pentium I
 Pentium II
 MIPS 500

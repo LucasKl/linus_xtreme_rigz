@@ -1,9 +1,11 @@
-let spec=`<ram> ::= ""<ramManufacturer>" "<ramNumber>" "<ramUnit>" "<ramType>"";
+let spec=`<ram> ::= ""<ramManufacturer>" "<ramNumber>" "<storageUnit>" "<ramType>"";
 <ramManufacturer> ::= "Kingston" | "Razer" | "Corsair";
-<ramNumber> ::= "2" | "4" | "8" | "10" | "12" | "1024" | "2048";
-<ramUnit> ::= "GB" | "MB" | "MiBi" | "GiBi" | "KB";
+<ramNumber> ::= "2" | "4" | "8" | "10" | "12" | "200" | "500" | "1024" | "2048";
+<storageUnit> ::= "GB" | "MB" | "MiBi" | "GiBi" | "KB";
 <ramType> ::= "DDR2" | "SRAM" | "DDR3" | "DDR3000000" | "Flash";
-<cpu> ::= "i3" | "i5" | "i7 X5009" | "Pentium I" | "Pentium II" | "MIPS 500" | "12 Quantum Bits";
+<storage> ::= ""<ramNumber>" "<storageUnit>" "<storageType>"";
+<storageType> ::= "HDD" | "SSD" | "Tape" | "Punching Cards" | "Floppy Drive" | "Datasette" | "Mechanical Relay";
+<cpu> ::= "Intel Core i3" | "Intel Core i5" | "Intel Core i7 X5009" | "Pentium I" | "Pentium II" | "MIPS 500" | "12 Quantum Bits";
 <mousepad> ::= "League of Legends" | "Naruto" | "YuGiOh";
 <mouse> ::= "Trackball" | "Ergo Plus" | "Logitech G203" | "Sharkoon Drakonia Black" | "Razer Deathadder Elite" | "Redragon M908 Impact RGB" | "Logitech G502 HERO Gaming" | "HoLife Gaming Maus" | "MadCatz R.A.T. 8+";
 <keyboard> ::= "Cherry Mechanical Pro" | "Razer Blackwidow" | "HAVIT Gaming Keyboard" | "TITANWOLF Gaming Set" | "Roccat Vulcan 121" | "Logitech G213 Prodigy Gaming-Keyboard" | "Razer Ornata Chroma Gaming-Keyboard" | "IBM Model M" | "Digital Typewriter";
