@@ -1,0 +1,1 @@
+use converter by navigating to "grammar-converter" and calling "stack run ../grammar.txt ../spec.js"

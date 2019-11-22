@@ -36,6 +36,7 @@ i7 X5009
 Pentium I
 Pentium II
 MIPS 500
+12 Quantum Bits
 
 <mousepad>:
 League of Legends
@@ -69,8 +70,6 @@ Commenting First on Youtube
 Searching on Yahoo
 Listening to rad tunes on <musicVendor>
 Deep Neural Networks
-
-<application2>:
 Calculating Prime Numbers
 Solving Sudokus
 Simulating Quantum Computers
@@ -108,3 +107,35 @@ Napster
 Myspace
 Spotify
 Youtube
+
+<software>:
+Word
+Forknife
+Netscape
+7zip
+WinRAR
+Winamp
+Windows Media Player
+Photo Viewer
+Photoshop
+Minesweeper
+World of Warcraft
+Minecraft
+Garage Band
+VLC Media Player
+Firefox
+Chrome
+
+<version>:
+0.1
+1.0
+1.2
+1.5
+2.7.0
+3.6
+96
+98
+2002.1
+3000
+Service Pack 1
+Service Pack 2
