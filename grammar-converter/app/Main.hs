@@ -11,7 +11,7 @@ main = do
     let textLines = filter (not . isBlank) $ lines text
     let spec = unparseGrammar $ parseGrammar textLines
     putStrLn $ spec
-    writeFile "spec.js" spec
+    writeFile (args !! 1) spec
     
 parseGrammar :: [String] -> Grammar
 parseGrammar = Grammar . parseRules
