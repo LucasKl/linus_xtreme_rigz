@@ -1,7 +1,7 @@
 <ram>:
 <ramManufacturer> <ramNumber> <ramUnit> <ramType>
 
-<ramManufacturer>
+<ramManufacturer>:
 Kingston
 Razer
 Corsair
