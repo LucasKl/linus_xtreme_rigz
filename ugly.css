@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: lightgray;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-width: 6px;
+}
+
+select {
+    background-color: lightgray;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-width: 6px;
+}
+
+table {
+    border: solid 4px grey;
+}
+
+td {
+    border: solid 4px grey;
+    padding: 10px 15px;
+}
+
+.view-counter {
+    font-size: 60px;
+    padding: 2px;
+    color: red;
+    background-color: blue;
+}

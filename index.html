@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Informatik Linus Tech Tipps</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ugly.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="codez.js"></script>
+
+    <script src="prettybnf.js"></script>
+    <script src="erratic.js"></script>
+    <script src="ebnf_spec.js"></script>
+</head>
+
+<body>
+    <br><br>
+    <center>
+        <h1><img src="img/globe.png" alt="Globus" align="middle">Welcome to Linus Computer Configurator!!! <img
+                src="img/globe.png" alt="Globus" align="middle"></h1>
+        <br>
+        <marquee>Days without restart: 0 Maximum Uptime: 12h You are visitor: 12</marquee>
+        <br>
+        <button id="btn-customize">Customize</button>
+        <button id="btn-random">Random Rig</button>
+        <button id="btn-review">Review</button>
+        <button id="btn-guests">Guest book</button>
+        <button id="btn-homepage">My Homepage</button>
+    </center>
+    <br><br>
+    <div id="tab-customize">
+        <h2>Specs:</h2>
+        <h3>Main Application:</h3>
+        <select>
+            <option value="web">Surfing the www</option>
+            <option value="gif">Gif rendering</option>
+            <option value="prog">Visual Basic programming</option>
+            <option value="printing">Printing Documents</option>
+            <option value="flash">Flash Games</option>
+            <option value="ml">Machine Learning</option>
+            <option value="crypto">Crypto Mining</option>
+            <option value="pizza">Ordering Food</option>
+            <option value="comments">Commenting 'First' on Youtube</option>
+        </select>
+        <h3>Other Application 1:</h3>
+        <select>
+            <option value="web">Surfing the www</option>
+            <option value="gif">Gif rendering</option>
+            <option value="prog">Visual Basic programming</option>
+            <option value="printing">Printing Documents</option>
+            <option value="flash">Flash Games</option>
+            <option value="ml">Machine Learning</option>
+            <option value="crypto">Crypto Mining</option>
+            <option value="pizza">Ordering Food</option>
+            <option value="comments">Commenting 'First' on Youtube</option>
+        </select>
+        <br>
+        <button id="btn-generate" class="ugly-button">Build PC!</button>
+    </div>
+
+    <div id="tab-review" hidden>
+        <h1>Review cutomized PC</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Spec</th>
+                    <th>Part</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CPU</td>
+                    <td id="spec-cpu"></td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td id="spec-ram"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tab-guests" hidden>
+        <h1>Guest Book</h1>
+    </div>
+
+    <div id="tab-homepage" hidden>
+        <h1>My Homepage and Blog</h1>
+    </div>
+
+    <span class="view-counter">0</span>
+    <span class="view-counter">0</span>
+    <span class="view-counter">0</span>
+    <span class="view-counter">0</span>
+    <span class="view-counter">1</span>
+    <span class="view-counter">2</span>
+
+    <!-- <script>
+        var rules = erratic.parse(spec);
+        var list = erratic.generate(rules, 'bSentence');
+        document.getElementById('textbox').innerText = list;
+    </script> -->
+</body>
+
+</html>
