@@ -22,7 +22,7 @@ MiBi
 GiBi
 KB
 
-<ramType>
+<ramType>:
 DDR2
 SRAM
 DDR3

@@ -23,6 +23,7 @@ $( document ).ready(function() {
         
         $("#spec-cpu").html(erratic.generate(rules, 'cpu'));
         $("#spec-ram").html(erratic.generate(rules, 'ram'));
+        $("#spec-mousepad").html(erratic.generate(rules, 'mousepad'));
     })
 
     $("#btn-guests").click(function() {
