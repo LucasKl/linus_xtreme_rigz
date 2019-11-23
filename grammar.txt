@@ -173,13 +173,20 @@ McAfee
 Service Pack 1
 Service Pack 2
 
-<toolbar>:
+<toolbar1>:
+Google Toolbar
 Yahoo Toolbar
 Bing Toolbar
+
+<toolbar2>:
 Ask Toolbar
 Best Price Checker
+
+<toolbar3>:
 Daily Funny GIF
 Amazon Hotbar
+
+<toolbar4>:
 Myspace Quickaccess
 Download Enhancer
 
