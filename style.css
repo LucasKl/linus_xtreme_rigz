@@ -5,3 +5,8 @@ body {
 	color: blue;
 }
 
+.table-box {
+	display: inline-block;
+	margin-left: 25px;
+}
+

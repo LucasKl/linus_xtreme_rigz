@@ -29,14 +29,14 @@
         <br>
         <marquee>Days without restart: 0 Maximum Uptime: 12h You are visitor: 12</marquee>
         <br>
-        <button id="btn-customize">Customize</button>
         <button id="btn-random">Random Rig</button>
+        <button id="btn-customize">Customize</button>
         <button id="btn-review">Review</button>
         <button id="btn-guests">Guest book</button>
         <button id="btn-homepage">My Homepage</button>
     </center>
     <br><br>
-    <div id="tab-customize">
+    <div id="tab-customize" hidden>
         <h2>Specs:</h2>
         <h3>Main Application:</h3>
         <select>
@@ -66,34 +66,105 @@
         <button id="btn-generate" class="ugly-button">Build PC!</button>
     </div>
 
-    <div id="tab-review" hidden>
+    <div id="tab-review">
         <h1>Review cutomized PC</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Spec</th>
-                    <th>Part</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Best suited for</td>
-                    <td id="spec-application1"></td>
-                </tr>
-                <tr>
-                    <td>CPU</td>
-                    <td id="spec-cpu"></td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td id="spec-ram"></td>
-                </tr>
-                <tr>
-                    <td>Mousepad</td>
-                    <td id="spec-mousepad"></td>
-                </tr>
-            </tbody>
-        </table>
+        <img src="img/pc1.png" width="150">
+        <br>
+        <div class="table-box">
+            <h2>Hardware:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Spec</th>
+                        <th>Part</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Best suited for</td>
+                        <td id="spec-application"></td>
+                    </tr>
+                    <tr>
+                        <td>CPU</td>
+                        <td id="spec-cpu"></td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td id="spec-ram"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-box">
+            <h2>Software:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application</th>
+                        <th>Version</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="software1"></td>
+                        <td id="software1-version"></td>
+                    </tr>
+                    <tr>
+                        <td id="software2"></td>
+                        <td id="software2-version"></td>
+                    </tr>
+                    <tr>
+                        <td id="software3"></td>
+                        <td id="software3-version"></td>
+                    </tr>
+                    <tr>
+                        <td id="software4"></td>
+                        <td id="software4-version"></td>
+                    </tr>
+                    <tr>
+                        <td id="software5"></td>
+                        <td id="software5-version"></td>
+                    </tr>
+                    <tr>
+                        <td id="software6"></td>
+                        <td id="software6-version"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-box">
+                <h2>Devices:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Device</th>
+                            <th>Model</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mouse</td>
+                            <td id="spec-mouse"></td>
+                        </tr>
+                        <tr>
+                            <td>Keyboard</td>
+                            <td id="spec-keyboard"></td>
+                        </tr>
+                        <tr>
+                            <td>Display</td>
+                            <td id="spec-display"></td>
+                        </tr>
+                        <tr>
+                            <td>Printer</td>
+                            <td id="spec-printer"></td>
+                        </tr>
+                        <tr>
+                            <td>Mousepad</td>
+                            <td id="spec-software5"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
     </div>
 
     <div id="tab-guests" hidden>
@@ -102,6 +173,11 @@
 
     <div id="tab-homepage" hidden>
         <h1>My Homepage and Blog</h1>
+        Coming soon!!
+        <center>
+            <span style="font-size: 90px;">UNDER CONSTRUCTION <img src="img/hat.png" width=150></span><br>
+            <img src="img/builder.png">
+        </center>
     </div>
 
     <div class="view-counter">
