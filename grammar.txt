@@ -22,7 +22,7 @@ GB
 MB
 MiBi
 GiBi
-KB
+TB
 
 <ramType>:
 DDR2
@@ -201,3 +201,36 @@ Fedora
 ArchLinux
 Ubuntu
 MacOS
+
+<display>:
+<displaySize> <displayManufacturer> <displayTec>
+
+<displaySize>:
+19 Inch
+21 Inch
+22 Inch
+24 Inch
+28 Inch
+
+<displayManufacturer>:
+Asus
+BenQ
+Samsung
+AOC
+Acer
+Panasonic
+Sony
+Fujitsu
+JiuJitsu
+Philips
+Siemens
+
+<displayTec>:
+CRT
+TFT
+LCD
+LSD
+Plasma
+DotMatix
+Seven Segment Display
+
