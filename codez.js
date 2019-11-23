@@ -3,13 +3,15 @@ $( document ).ready(function() {
         $("#tab-customize").show();
         $("#tab-review").hide();
         $("#tab-guests").hide();
+        $("#tab-guests2").hide();
         $("#tab-homepage").hide();
     });
 
-    $("#btn-review").click(function() {
+    $("#btn-start").click(function() {
         $("#tab-customize").hide();
         $("#tab-review").show();
         $("#tab-guests").hide();
+        $("#tab-guests2").hide();
         $("#tab-homepage").hide();
     });
 
@@ -17,15 +19,25 @@ $( document ).ready(function() {
         $("#tab-customize").hide();
         $("#tab-review").show();
         $("#tab-guests").hide();
+        $("#tab-guests2").hide();
         $("#tab-homepage").hide();
         
-        generate();
+        generate(1);
     })
 
     $("#btn-guests").click(function() {
         $("#tab-customize").hide();
         $("#tab-review").hide();
         $("#tab-guests").show();
+        $("#tab-guests2").hide();
+        $("#tab-homepage").hide();
+    });
+
+    $("#btn-guests2").click(function() {
+        $("#tab-customize").hide();
+        $("#tab-review").hide();
+        $("#tab-guests").hide();
+        $("#tab-guests2").show();
         $("#tab-homepage").hide();
     });
 
@@ -33,22 +45,27 @@ $( document ).ready(function() {
         $("#tab-customize").hide();
         $("#tab-review").hide();
         $("#tab-guests").hide();
+        $("#tab-guests2").hide();
         $("#tab-homepage").show();
     });
 
-    $("#btn-generate").click(function() {
-        $("#tab-customize").hide();
-        $("#tab-review").show();
-        $("#tab-guests").hide();
-        $("#tab-homepage").hide();
-        
-        generate();
-    });
-    generate();
+    $("#guestbook-send").click(function() {
+        alert(`
+        CRITICAL PHP QUERY ERROR IN STATEMENT: 'LOGIN GUESTBOOK_DB WITH USER='root' PASSWORD='Chr15tMas92'
+        `);
+    })
+
+    generate(0);
 });
 
-function generate() {
+function generate(random) {
     var rules = erratic.parse(spec);
+
+    if (random == 1) {
+        $("#review-header").html("Review generated PC")
+    } else {
+        $("#review-header").html("My Rig")
+    }
         
     $("#spec-cpu").html(erratic.generate(rules, 'cpu'));
     $("#spec-ram").html(erratic.generate(rules, 'ram'));

@@ -30,6 +30,20 @@ select {
     border-width: 6px;
 }
 
+input {
+    background-color: white;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-width: 6px;
+}
+
 table {
     border: solid 4px grey;
 }

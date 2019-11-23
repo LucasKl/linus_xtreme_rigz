@@ -29,10 +29,11 @@
         <br>
         <marquee>Days without restart: 0 Maximum Uptime: 12h You are visitor: 12</marquee>
         <br>
-        <button id="btn-random">Random Rig</button>
-        <button id="btn-customize">Customize</button>
-        <button id="btn-review">Review</button>
+        <button id="btn-start">My Rig</button>
+        <!-- <button id="btn-customize">Customize</button> -->
+        <!-- <button id="btn-random">Generate Rig</button> -->
         <button id="btn-guests">Guest book</button>
+        <button id="btn-guests2">Guest book page 2</button>
         <button id="btn-homepage">My Homepage</button>
     </center>
     <br><br>
@@ -67,140 +68,172 @@
     </div>
 
     <div id="tab-review">
-        <h1>Review cutomized PC</h1>
+        <h1>My rig :-)</h1>
         <img src="img/pc1.png" width="150">
-        <br>
-        <div class="table-box">
-            <h2>Hardware:</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Spec</th>
-                        <th>Part</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Best suited for</td>
-                        <td id="spec-application"></td>
-                    </tr>
-                    <tr>
-                        <td>CPU</td>
-                        <td id="spec-cpu"></td>
-                    </tr>
-                    <tr>
-                        <td>RAM</td>
-                        <td id="spec-ram"></td>
-                    </tr>
-                    <tr>
-                        <td>Storage</td>
-                        <td id="spec-storage"></td>
-                    </tr>
-                    <tr>
-                        <td>OS</td>
-                        <td id="spec-os"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="table-box">
-            <h2>Software:</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Application</th>
-                        <th>Version</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="software1"></td>
-                        <td id="software1-version"></td>
-                    </tr>
-                    <tr>
-                        <td id="software2"></td>
-                        <td id="software2-version"></td>
-                    </tr>
-                    <tr>
-                        <td id="software3"></td>
-                        <td id="software3-version"></td>
-                    </tr>
-                    <tr>
-                        <td id="software4"></td>
-                        <td id="software4-version"></td>
-                    </tr>
-                    <tr>
-                        <td id="software5"></td>
-                        <td id="software5-version"></td>
-                    </tr>
-                    <tr>
-                        <td id="software6"></td>
-                        <td id="software6-version"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="table-box">
-            <h2>Toolbars:</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Toolbar</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="spec-toolbar1"></td>
-                    </tr>
-                    <tr>
-                        <td id="spec-toolbar2"></td>
-                    </tr>
-                    <tr>
-                        <td id="spec-toolbar3"></td>
-                    </tr>
-                    <tr>
-                        <td id="spec-toolbar4"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="table-box">
-            <h2>Devices:</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Device</th>
-                        <th>Model</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mouse</td>
-                        <td id="spec-mouse"></td>
-                    </tr>
-                    <tr>
-                        <td>Keyboard</td>
-                        <td id="spec-keyboard"></td>
-                    </tr>
-                    <tr>
-                        <td>Display</td>
-                        <td id="spec-display"></td>
-                    </tr>
-                    <tr>
-                        <td>Printer</td>
-                        <td id="spec-printer"></td>
-                    </tr>
-                    <tr>
-                        <td>Mousepad</td>
-                        <td id="spec-mousepad"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <center>
+            <br>
+            <div class="table-box">
+                <h2>Hardware:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Spec</th>
+                            <th>Part</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Best suited for</td>
+                            <td id="spec-application"></td>
+                        </tr>
+                        <tr>
+                            <td>CPU</td>
+                            <td id="spec-cpu"></td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td id="spec-ram"></td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td id="spec-storage"></td>
+                        </tr>
+                        <tr>
+                            <td>OS</td>
+                            <td id="spec-os"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-box">
+                <h2>Software:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Application</th>
+                            <th>Version</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="software1"></td>
+                            <td id="software1-version"></td>
+                        </tr>
+                        <tr>
+                            <td id="software2"></td>
+                            <td id="software2-version"></td>
+                        </tr>
+                        <tr>
+                            <td id="software3"></td>
+                            <td id="software3-version"></td>
+                        </tr>
+                        <tr>
+                            <td id="software4"></td>
+                            <td id="software4-version"></td>
+                        </tr>
+                        <tr>
+                            <td id="software5"></td>
+                            <td id="software5-version"></td>
+                        </tr>
+                        <tr>
+                            <td id="software6"></td>
+                            <td id="software6-version"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-box">
+                <h2>Toolbars:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Toolbar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="spec-toolbar1"></td>
+                        </tr>
+                        <tr>
+                            <td id="spec-toolbar2"></td>
+                        </tr>
+                        <tr>
+                            <td id="spec-toolbar3"></td>
+                        </tr>
+                        <tr>
+                            <td id="spec-toolbar4"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-box">
+                <h2>Devices:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Device</th>
+                            <th>Model</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mouse</td>
+                            <td id="spec-mouse"></td>
+                        </tr>
+                        <tr>
+                            <td>Keyboard</td>
+                            <td id="spec-keyboard"></td>
+                        </tr>
+                        <tr>
+                            <td>Display</td>
+                            <td id="spec-display"></td>
+                        </tr>
+                        <tr>
+                            <td>Printer</td>
+                            <td id="spec-printer"></td>
+                        </tr>
+                        <tr>
+                            <td>Mousepad</td>
+                            <td id="spec-mousepad"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </center>
     </div>
 
     <div id="tab-guests" hidden>
         <h1>Guest Book</h1>
+        <div class="guestbook-box">
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:35> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:36> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:37> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Sandy Meyers, 02/08/01 00:12> Limited Offer 25%. Download Digitronix Youtube to
+                .wav converter now!</div>
+            <br><br>
+            <input type="text" value="Enter your name" />
+            <button id="guestbook-send">Send</button>
+        </div>
+    </div>
+
+    <div id="tab-guests2" hidden>
+        <h1>Guest Book Page 2</h1>
+        <div class="guestbook-box">
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:35> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:36> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Enter your name, 05/12/98 20:37> Dear son, i really like your new page on the
+                world wide web! Love you Dad</div>
+            <div class="guestbook-entry">Sandy Meyers, 02/08/01 00:12> Limited Offer 25%. Download Digitronix Youtube to
+                .wav converter now!</div>
+            <br><br>
+            <input type="text" value="Enter your name" />
+            <button id="guestbook-send">Send</button>
+        </div>
     </div>
 
     <div id="tab-homepage" hidden>
