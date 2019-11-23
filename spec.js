@@ -1,7 +1,7 @@
 let spec=`<ram> ::= ""<ramManufacturer>" "<ramNumber>" "<storageUnit>" "<ramType>"";
 <ramManufacturer> ::= "Kingston" | "Razer" | "Corsair";
 <ramNumber> ::= "2" | "4" | "8" | "10" | "12" | "200" | "500" | "1024" | "2048";
-<storageUnit> ::= "GB" | "MB" | "MiBi" | "GiBi" | "KB";
+<storageUnit> ::= "GB" | "MB" | "MiBi" | "GiBi" | "TB";
 <ramType> ::= "DDR2" | "SRAM" | "DDR3" | "DDR3000000" | "Flash";
 <storage> ::= ""<ramNumber>" "<storageUnit>" "<storageType>"";
 <storageType> ::= "HDD" | "SSD" | "Tape" | "Punching Cards" | "Floppy Drive" | "Datasette" | "Mechanical Relay";
@@ -17,4 +17,8 @@ let spec=`<ram> ::= ""<ramManufacturer>" "<ramNumber>" "<storageUnit>" "<ramType
 <version> ::= "0.1" | "1.0" | "1.2" | "1.5" | "2.7.0" | "3.6" | "96" | "98" | "2002.1" | "3000" | "Service Pack 1" | "Service Pack 2";
 <toolbar> ::= "Yahoo Toolbar" | "Bing Toolbar" | "Ask Toolbar" | "Best Price Checker" | "Daily Funny GIF" | "Amazon Hotbar" | "Myspace Quickaccess" | "Download Enhancer";
 <os> ::= "Windows 95" | "Windows 98" | "Windows ME" | "Windows 2000" | "Windows XP" | "Windows Vista" | "Windows Vista Service Pack 2" | "Windows 7" | "Windows 8" | "Windows 10" | "Solaris" | "Gentoo" | "Debian" | "Fedora" | "ArchLinux" | "Ubuntu" | "MacOS";
+<display> ::= ""<displaySize>" "<displayManufacturer>" "<displayTec>"";
+<displaySize> ::= "19 Inch" | "21 Inch" | "22 Inch" | "24 Inch" | "28 Inch";
+<displayManufacturer> ::= "Asus" | "BenQ" | "Samsung" | "AOC" | "Acer" | "Panasonic" | "Sony" | "Fujitsu" | "JiuJitsu" | "Philips" | "Siemens";
+<displayTec> ::= "CRT" | "TFT" | "LCD" | "LSD" | "Plasma" | "DotMatix" | "Seven Segment Display";
 `
