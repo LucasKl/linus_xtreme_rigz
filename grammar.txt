@@ -177,18 +177,24 @@ Service Pack 2
 Google Toolbar
 Yahoo Toolbar
 Bing Toolbar
+Wikipedia Searchbar
 
 <toolbar2>:
 Ask Toolbar
 Best Price Checker
+Youtube Downloader
 
 <toolbar3>:
 Daily Funny GIF
 Amazon Hotbar
+Flash Game Quick Bar
+Html to PDF to Html Converter
 
 <toolbar4>:
 Myspace Quickaccess
 Download Enhancer
+Windows Help Center
+Firefox Manual
 
 <os>:
 Windows 95
