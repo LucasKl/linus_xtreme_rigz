@@ -53,11 +53,13 @@ function generate() {
     $("#spec-cpu").html(erratic.generate(rules, 'cpu'));
     $("#spec-ram").html(erratic.generate(rules, 'ram'));
     $("#spec-application").html(erratic.generate(rules, 'application'));
+    $("#spec-os").html(erratic.generate(rules, 'os'));
 
     $("#spec-mouse").html(erratic.generate(rules, 'mouse'));
     $("#spec-keyboard").html(erratic.generate(rules, 'keyboard'));
-    $("#spec-display").html(erratic.generate(rules, 'display'));
-    $("#spec-printer").html(erratic.generate(rules, 'printer'));
+    $("#spec-storage").html(erratic.generate(rules, 'storage'));
+    // $("#spec-display").html(erratic.generate(rules, 'display'));
+    // $("#spec-printer").html(erratic.generate(rules, 'printer'));
     $("#spec-mousepad").html(erratic.generate(rules, 'mousepad'));
 
     $("#software1").html(erratic.generate(rules, 'software'));
