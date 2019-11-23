@@ -15,10 +15,10 @@ let spec=`<ram> ::= ""<ramManufacturer>" "<ramNumber>" "<storageUnit>" "<ramType
 <musicVendor> ::= "Napster" | "Myspace" | "Spotify" | "Youtube";
 <software> ::= "Word" | "Forknife" | "Netscape" | "7zip" | "WinRAR" | "Winamp" | "Windows Media Player" | "Photo Viewer" | "Photoshop" | "Minesweeper" | "World of Warcraft" | "Minecraft" | "Garage Band" | "VLC Media Player" | "Firefox" | "Chrome" | "Avira Antivirus" | "Bitdefender" | "Skype" | "Teamspeak" | "Norton 30 day trail version" | "Java JRE" | "PHP" | "CCleaner" | "Hardware Monitor" | "McAfee";
 <version> ::= "0.1" | "1.0" | "1.2" | "1.5" | "2.7.0" | "3.6" | "96" | "98" | "2002.1" | "3000" | "Service Pack 1" | "Service Pack 2";
-<toolbar1> ::= "Google Toolbar" | "Yahoo Toolbar" | "Bing Toolbar";
-<toolbar2> ::= "Ask Toolbar" | "Best Price Checker";
-<toolbar3> ::= "Daily Funny GIF" | "Amazon Hotbar";
-<toolbar4> ::= "Myspace Quickaccess" | "Download Enhancer";
+<toolbar1> ::= "Google Toolbar" | "Yahoo Toolbar" | "Bing Toolbar" | "Wikipedia Searchbar";
+<toolbar2> ::= "Ask Toolbar" | "Best Price Checker" | "Youtube Downloader";
+<toolbar3> ::= "Daily Funny GIF" | "Amazon Hotbar" | "Flash Game Quick Bar" | "Html to PDF to Html Converter";
+<toolbar4> ::= "Myspace Quickaccess" | "Download Enhancer" | "Windows Help Center" | "Firefox Manual";
 <os> ::= "Windows 95" | "Windows 98" | "Windows ME" | "Windows 2000" | "Windows XP" | "Windows Vista" | "Windows Vista Service Pack 2" | "Windows 7" | "Windows 8" | "Windows 10" | "Solaris" | "Gentoo" | "Debian" | "Fedora" | "ArchLinux" | "Ubuntu" | "MacOS";
 <display> ::= ""<displaySize>" "<displayManufacturer>" "<displayTec>"";
 <displaySize> ::= "19 Inch" | "21 Inch" | "22 Inch" | "24 Inch" | "28 Inch";
